@@ -31,7 +31,7 @@ a {
 
 .logo {
   max-width: 150px;
-  max-height: 50px;
+  max-height: 120px;
 }
 
 nav {
@@ -47,7 +47,19 @@ nav li {
   display: inline;
   list-style: none;
   margin: 0;
-  line-height: 42px;
+  line-height: 125px;
+  margin-left: 10px;
+  font-family: var(--default-font);
+}
+
+nav a {
+  color: black;
+  transition: all 150ms ease-in-out;
+}
+
+nav a:hover,
+nav li.active a {
+  color: var(--branding-color);
 }
 
 .main {
