@@ -127,9 +127,15 @@ footer {
   color: var(--branding-color);
   border: 1px solid var(--branding-color);
   border-radius: 6px;
-  font-size: 18px;
-  line-height: 27px;
+  font-size: 8px;
+  line-height: 17px;
   padding: 15px 30px;
+  padding: 10px;
+}
+
+.launch-btn:hover {
+  color: hotpink;
+  border: none;
 }
 
 .content-container {
@@ -238,12 +244,6 @@ footer .contact-box p {
     padding: 80px 20px;
   }
 
-  .launch-btn {
-    font-size: 12px;
-    padding: 10px;
-    line-height: 17px;
-  }
-
   .btn {
     font-size: 20px;
   }
@@ -270,7 +270,7 @@ footer .contact-box p {
   .contact-btn {
     font-size: 12px;
     line-height: 20px;
-    padding: 10px 20px;
+    padding: 15px 25px;
   }
 
   .social-links {
