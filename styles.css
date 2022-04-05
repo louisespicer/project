@@ -7,6 +7,7 @@
 
 h1 {
   font-size: 96px;
+  line-height: 1.5;
 }
 
 h2 {
@@ -23,7 +24,6 @@ p {
 
 .main {
   background-color: var(--background-color);
-  width: 100%;
   color: #272142;
   text-align: center;
   padding: 160px 20px;
@@ -71,7 +71,6 @@ p {
 
 .about-section {
   padding: 160px 20px;
-  text-align: center;
 }
 
 .about-section h1 {
@@ -94,4 +93,54 @@ p {
   height: 500px;
   border-radius: 50%;
   border: 10px solid var(--background-color);
+}
+
+@media (max-width: 900px) {
+  h1 {
+    font-size: 44px;
+    line-height: 56px;
+  }
+
+  h2 {
+    font-size: 44px;
+  }
+
+  .main {
+    padding: 80px 20px;
+  }
+
+  .about-section {
+    text-align: center;
+    padding: 0;
+  }
+
+  .project-description {
+    padding: 0;
+    text-align: center;
+  }
+}
+
+@media (max-width: 600px) {
+  .display-picture {
+    width: 300px;
+    height: 300px;
+  }
+
+  .main {
+    padding: 60px 10px;
+  }
+
+  .about-section {
+    text-align: center;
+    padding: 0;
+  }
+
+  .project-description {
+    padding: 0;
+    text-align: center;
+  }
+
+  p {
+    font-size: 12px;
+  }
 }
