@@ -109,7 +109,8 @@ footer {
 }
 
 .contact-btn:hover {
-  color: hotpink;
+  background-color: hotpink;
+  color: var(--background-color);
 }
 
 .featured {
